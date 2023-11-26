@@ -25,8 +25,8 @@ $ npm run dev
 # build production
 $ npm run build
 
-# start production after build production
-$ npm run serve
+# preview the production build
+$ npm run preview
 
 # start linting
 $ npm run lint
