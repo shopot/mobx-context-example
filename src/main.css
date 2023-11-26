@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  color: #000c;
+  padding-top: 40px;
+}
+
+#root {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+button {
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #e7e7e7;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+button+button {
+  margin-left: 8px;
+}
+
+.counter-results {
+  border: 1px solid #f3f4f6;
+  padding: 16px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.counter-form {
+  border: 1px solid #f3f4f6;
+  padding: 16px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.counter-results::after,
+.counter-form::after {
+  font-size: 13px;
+  position: absolute;
+  background-color: white;
+  padding: 2px 8px;
+  border: 1px solid #f3f4f6;
+  border-radius: 4px;
+  color: #9ca3af;
+}
+
+.counter-results::after {
+  content: 'CounterResults';
+  top: -10px;
+  left: calc(50% - 47px);
+}
+
+.counter-form::after {
+  content: 'CounterForm';
+  top: -10px;
+  left: calc(50% - 47px);
+
+}
