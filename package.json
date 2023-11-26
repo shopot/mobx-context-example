@@ -1,7 +1,17 @@
 {
-  "name": "prettier-check",
+  "name": "mobx-context-example",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "Using React context API with MobX made with TypeScript",
+  "keywords": [
+    "react",
+    "typescript",
+    "mobx",
+    "context"
+  ],
+  "author": "Konstantin Sapronov (https://github.com/shopot)",
+  "homepage": "https://github.com/shopot/mobx-context-example",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "vite",
