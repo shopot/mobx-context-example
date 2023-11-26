@@ -14,6 +14,8 @@
 см. [MobX-Cookbook: React Context API](https://mobx-cookbook.github.io/react-integration/context-api)
 
 
+![counter-screen](./counter-screen.png)
+
 
 ## Installation
 
