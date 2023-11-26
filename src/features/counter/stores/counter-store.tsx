@@ -12,11 +12,11 @@ class CounterStore {
   }
 
   decrement() {
-    this.value--;
+    this.value -= 1;
   }
 
   increment() {
-    this.value++;
+    this.value += 1;
   }
 }
 
