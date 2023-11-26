@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-    <h1 align="center">MobX и React Context AP</h1>
+    <h1 align="center">MobX and React Context API</h1>
   </a>
 </p>
 
