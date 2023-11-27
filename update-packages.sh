@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+TS_VERSION="5.2.2"
+
 update_packages() {
   arg1=$1
 
@@ -19,3 +21,6 @@ update_packages() {
 update_packages dependencies
 
 update_packages devDependencies
+
+
+echo "npm install -D typescript@${TS_VERSION}" | sh
