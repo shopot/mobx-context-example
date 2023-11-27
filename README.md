@@ -1,8 +1,9 @@
 <p align="center">
-<img width="60" src="https://user-images.githubusercontent.com/1072928/224541636-cf5a6322-e229-4bbb-b01a-c9b1a3ffd10c.png">
-<img width="60" src="https://user-images.githubusercontent.com/1072928/224541674-efab49b1-5261-4562-8f57-21d778433a5d.svg">
-<img width="60" src="https://user-images.githubusercontent.com/1072928/224541607-4bebbd74-c9a0-4ffc-8b14-e117894a2be0.png">
-<img  width="60" src="https://raw.githubusercontent.com/mobxjs/mobx/main/docs/assets/mobx.png">
+<a href="https://vitejs.dev/" target="_blank" rel="noreferrer"> <img src="https://vitejs.dev/logo.svg" alt="reactnative" width="40" height="40"/> </a>
+<a href="https://reactnative.dev/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg" alt="reactnative" width="40" height="40"/> </a>
+<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a>
+<a href="https://mobx.js.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/mobxjs/mobx/main/docs/assets/mobx.png" alt="typescript" width="40" height="40"/> </a>
+<a href="https://jestjs.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="40" height="40"/> </a>
 </p>
 
 <p align="center">
