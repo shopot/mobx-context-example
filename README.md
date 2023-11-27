@@ -49,6 +49,12 @@ $ npm run preview
 
 # start linting
 $ npm run lint
+
+# run unit tests
+$ npm run test
+
+# run unit test coverage
+$ npm run coverage
 ```
 
 ## License
