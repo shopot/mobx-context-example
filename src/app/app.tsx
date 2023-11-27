@@ -6,6 +6,7 @@ import { Counter } from '@/features/counter';
 export const App = (): JSX.Element => {
   return (
     <AppProvider>
+      <h1>MobX and React Context</h1>
       <Counter />
     </AppProvider>
   );
