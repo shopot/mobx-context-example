@@ -1,11 +1,11 @@
 import { createContext, useContext } from 'react';
 
-import { CounterStore, counterStore } from '../stores/counter-store';
+import { CounterStore } from '../stores/counter-store';
 
-export const CounterContext = createContext<CounterStore>(counterStore);
+export const CounterContext = createContext<CounterStore>(null!);
 
 export const useCounter = () => {
   const counter = useContext(CounterContext);
 
-  return counter;
+  return counter as CounterStore;
 };

@@ -18,5 +18,3 @@ export class CounterStore {
     this.value += 1;
   }
 }
-
-export const counterStore = new CounterStore();

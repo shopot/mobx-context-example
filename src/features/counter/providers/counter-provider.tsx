@@ -1,8 +1,8 @@
 import { JSX, PropsWithChildren } from 'react';
 
 import { CounterContext } from '../contexts/counter-context';
-import { counterStore } from '../stores/counter-store';
+import { CounterStore } from '../stores/counter-store';
 
 export const CounterProvider = ({ children }: PropsWithChildren): JSX.Element => {
-  return <CounterContext.Provider value={counterStore}>{children}</CounterContext.Provider>;
+  return <CounterContext.Provider value={new CounterStore()}>{children}</CounterContext.Provider>;
 };
