@@ -50,3 +50,7 @@ $ npm run preview
 # start linting
 $ npm run lint
 ```
+
+## License
+
+Licensed under the MIT license.
