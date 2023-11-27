@@ -10,6 +10,7 @@ export default {
   moduleNameMapper: {
     '\\.(gif|ttf|eot|svg|png|webp|jpeg|jpg)$': 'identity-obj-proxy',
     '\\.(css|less|sass|scss)$': 'identity-obj-proxy',
+    // Handle imports aliases
     '@/(.*)$': '<rootDir>/src/$1',
   },
   collectCoverage: false,
