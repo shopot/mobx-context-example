@@ -1,9 +1,9 @@
 import { JSX } from 'react';
 
-import { useCounterStore } from '../stores/counter-store';
+import { useCounter } from '../../contexts/counter-context';
 
 export const CounterForm = (): JSX.Element => {
-  const { decrement, increment } = useCounterStore();
+  const { decrement, increment } = useCounter();
 
   console.log('<CounterForm />');
 

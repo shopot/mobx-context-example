@@ -1,2 +1,2 @@
-export { CounterProvider } from './stores/counter-store';
+export { CounterProvider } from './providers/counter-provider';
 export { Counter } from './routes/counter';

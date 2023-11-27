@@ -1,10 +1,10 @@
 import { JSX } from 'react';
 import { observer } from 'mobx-react-lite';
 
-import { useCounterStore } from '../stores/counter-store';
+import { useCounter } from '../../contexts/counter-context';
 
 export const CounterResults = observer((): JSX.Element => {
-  const { value, double } = useCounterStore();
+  const { value, double } = useCounter();
 
   console.log('<CounterResults />');
 
