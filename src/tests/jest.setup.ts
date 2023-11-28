@@ -8,7 +8,3 @@ import '@testing-library/jest-dom';
 beforeAll(() => {
   jest.spyOn(global.console, 'log').mockImplementation();
 });
-
-afterAll(() => {
-  jest.resetAllMocks();
-});
