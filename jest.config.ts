@@ -13,7 +13,7 @@ export default {
     // Handle imports aliases
     '@/(.*)$': '<rootDir>/src/$1',
   },
-  collectCoverage: true,
+  collectCoverage: false,
   collectCoverageFrom: [
     'src/**/*.{ts,tsx}',
     '!src/**/*.d.ts',
