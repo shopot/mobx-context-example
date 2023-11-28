@@ -8,8 +8,4 @@ import { CounterStore } from '../stores/counter-store';
  */
 export const CounterContext = createContext<CounterStore>({} as CounterStore);
 
-export const useCounter = () => {
-  const counter = useContext(CounterContext);
-
-  return counter;
-};
+export const useCounter = () => useContext(CounterContext);
