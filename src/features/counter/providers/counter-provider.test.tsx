@@ -22,7 +22,7 @@ describe('CounterProvider', () => {
     });
   });
 
-  it('should', async () => {
+  it('should provides expected CounterContext to child elements', async () => {
     // ARRANGE
 
     render(
