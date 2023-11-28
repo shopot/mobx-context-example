@@ -14,6 +14,10 @@ jest.mock('../../contexts/counter-context', () => {
 });
 
 describe('CounterResults', () => {
+  beforeEach(() => {
+    jest.spyOn(global.console, 'log').mockImplementation();
+  });
+
   it('renders CounterResults component', async () => {
     // ARRANGE
     render(<CounterResults />);

@@ -18,6 +18,10 @@ jest.mock('../../contexts/counter-context', () => {
 });
 
 describe('CounterForm', () => {
+  beforeEach(() => {
+    jest.spyOn(global.console, 'log').mockImplementation();
+  });
+
   const user = userEvent.setup();
 
   it('should calls onClick with decrement', async () => {
