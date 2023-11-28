@@ -11,5 +11,5 @@ export const CounterContext = createContext<CounterStore>({} as CounterStore);
 export const useCounter = () => {
   const counter = useContext(CounterContext);
 
-  return counter as CounterStore;
+  return counter;
 };
