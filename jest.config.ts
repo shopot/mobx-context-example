@@ -13,13 +13,18 @@ export default {
     // Handle imports aliases
     '@/(.*)$': '<rootDir>/src/$1',
   },
-  collectCoverage: false,
+  collectCoverage: true,
   collectCoverageFrom: [
     'src/**/*.{ts,tsx}',
     '!src/**/*.d.ts',
     '!**/src/main.tsx',
     '!**/node_modules/**',
   ],
+  coverageThreshold: {
+    global: {
+      lines: 80,
+    },
+  },
   coverageReporters: ['text'],
   testPathIgnorePatterns: ['./src/main.tsx'],
 };
